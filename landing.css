@@ -289,11 +289,11 @@ hr.new2 {
   height: 10px;
 }
 
-#myImage  {
+.myImage  {
   right: 5%;
     bottom: 10%;
     position: absolute;
-    width: 45%;
+    width: 25%;
 }
 
 #myVideo {
