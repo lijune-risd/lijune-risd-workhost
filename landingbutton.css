@@ -1,0 +1,32 @@
+.button-container {
+  text-align: left;
+  margin-top: 2.5%;
+}
+ .slid:hover, .slid:focus {
+	 box-shadow: inset 20em 0 0 0 var(--hover);
+   border: 0px;
+   color: #1a252f;
+}
+
+ .slid {
+	 --color: #F2F2F2;
+	 --hover: grey;
+}
+
+ button {
+	 color: var(--color);
+	 transition: 0.25s;
+	 background: none;
+	 border: 2px solid;
+	 font-size: 16px;
+	 line-height: 1;
+	 margin: 0.5em;
+	 padding: 1em 2em;
+   right: 10%;
+   margin-right: 0;
+   opacity: 0.4;
+}
+
+button:hover {
+  opacity: 1;
+}
